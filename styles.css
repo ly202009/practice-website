@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: Roboto;
+    margin:0;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    padding: 20px 200px;
+    flex-direction: column;
+}
+
+.header_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.logo{
+    font-size:24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+ul, .header_hero-description{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header_hero{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: stretch;
+    padding-bottom: 120px;
+}
+
+.header_hero-left, .header_hero-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+}
+
+.header_hero-right{
+    background-image: url("https://media.tenor.com/YxQCMgNqEWEAAAAM/drooling-drool.gif");
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat:no-repeat;
+}
+
+.header_hero-text{
+    font-size:48px;
+    color:#f9faf8;
+    font-weight: 900;
+}
+
+.header_sign-up{
+    border: 0px;
+    font-size: 18px;
+    border-radius: 9px;
+    font-weight: 900;
+    padding: 5px 30px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    flex-shrink:0;
+    width: 130px;
+}
