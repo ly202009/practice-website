@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body{
-    font-family: Roboto;
+    font-family: 'Roboto', 'Courier New';
     margin:0;
 }
 
@@ -45,6 +45,8 @@ ul, .header_hero-description{
     gap: 40px;
     align-items: stretch;
     padding-bottom: 120px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header_hero-left, .header_hero-right{
@@ -78,4 +80,115 @@ ul, .header_hero-description{
     color:#f9faf8;
     flex-shrink:0;
     width: 130px;
+}
+
+
+
+.information{
+    padding:50px 200px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.information_title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information-content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.information-image_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 130px;
+}
+
+.information-image_wrapper img{
+    border-color: #3882f6;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    height: 130px;
+    width: 100%;
+}
+
+.information-text{
+    font-size: 12px;
+    text-align: center;
+    color:#787f88;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:120px 610px 90px;
+}
+
+.quote-text{
+    flex-shrink: 0;
+    width:800px;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-attribute{
+    color:#1F2937;
+    font-size: 25px;
+    font-weight: 900; 
+    text-align: right;
+    align-self: last baseline;
+}
+
+.call_to_action{
+    margin: 90px 450px;
+    border-radius: 5px;
+    height: 120px;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+}
+
+.call_to_action-left{
+    color:#E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.call_to_action-title{
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.call_to_action-sign_up{
+    border-style: solid;
+    border-color:#E5E7EB;
+    border-width: 2px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: 900;
+    font-size: 15px;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color:#E5E7EB;
+    text-align: center;
+    padding:40px;
 }
