@@ -132,7 +132,8 @@ ul, .header_hero-description{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:120px 610px 90px;
+    padding-top:120px;
+    padding-bottom: 90px;
 }
 
 .quote-text{
@@ -147,14 +148,14 @@ ul, .header_hero-description{
 .quote-attribute{
     color:#1F2937;
     font-size: 25px;
-    font-weight: 900; 
+    font-weight: 900;
+    padding-left:500px;
     text-align: right;
-    align-self: last baseline;
 }
 
 .call_to_action{
-    margin: 90px 450px;
-    border-radius: 5px;
+    margin: 90px;
+    border-radius: 8px;
     height: 120px;
     background-color: #3882f6;
     display: flex;
